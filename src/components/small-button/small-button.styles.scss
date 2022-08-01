@@ -11,12 +11,13 @@
       letter-spacing: 3px;
       border-radius: 3px;
       text-decoration:none;
-      box-shadow: 0 .3rem .6rem .1rem lighten($grayish-blue, 25);
+      
 
 }
 
 .sml-red-btn {
       background-color: $soft-red;
+      box-shadow: 0 .4rem .6rem -.2rem $grayish-blue;
 }
 
 .sml-blue-btn {
