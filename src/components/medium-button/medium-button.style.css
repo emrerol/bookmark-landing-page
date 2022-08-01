@@ -1,0 +1,21 @@
+.md-btn {
+  color: white;
+  text-align: center;
+  padding: 1rem 3.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.md-blue-btn {
+  background-color: hsl(231deg, 69%, 60%);
+}
+
+.md-grey-btn {
+  background-color: #babcc4;
+}/*# sourceMappingURL=medium-button.style.css.map */

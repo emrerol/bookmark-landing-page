@@ -1,0 +1,25 @@
+@import '../../style-variables/style-variables.styles.scss';
+
+.md-btn {
+      
+      color: lighten($grayish-blue, 60);
+      text-align: center;
+      padding: 1rem 3.5rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: none;
+      font-family: $font-family;
+      font-size: 1.2rem;
+      letter-spacing: 3px;
+      border-radius: 3px;
+      text-decoration:none;
+
+}
+
+.md-blue-btn {
+      background-color: $soft-blue;
+}
+
+.md-grey-btn {
+      background-color: lighten($grayish-blue, 15);
+}

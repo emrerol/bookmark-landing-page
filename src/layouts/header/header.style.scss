@@ -1,0 +1,28 @@
+@import '../../style-variables/style-variables.styles.scss';
+.nav {
+      background-color:#fff;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 2.5rem 14rem;
+
+     
+      .header-routes {
+            display: flex;
+            flex-direction: row;
+        
+            
+            &__element {
+                  color: $very-dark-blue;
+                  padding: 1rem 3rem;
+                  text-transform: uppercase;
+                  cursor: pointer;
+                  border: none;
+                  font-family: $font-family;
+                  font-size: 1.4rem;
+                  letter-spacing: .2rem;
+                  border-radius: .3rem;
+                  text-decoration:none;
+            }
+      }
+}
