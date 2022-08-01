@@ -12,10 +12,10 @@ const Header = () => {
     mediumGreyButton: "md-grey-btn",
   };
 
-  //#region Hamburger menü için kullanılabilir?
+  // #region Hamburger menü için kullanılabilir?
 
   // const [winSize, setWinSize] = useState({
-  //   winWidth: window.innerWidth,
+  //   winWidth: 1500,
   // });
 
   // useEffect(() => {
@@ -28,7 +28,7 @@ const Header = () => {
   // }, []);
   // console.log(winSize);
 
-  //#endregion
+  // #endregion
 
   return (
     <header>
@@ -38,6 +38,7 @@ const Header = () => {
             <img src={Logo} alt="Logo" />
           </a>
         </div>
+
         <div className="header-routes">
           <a href="#" className="header-routes__element">
             Features
