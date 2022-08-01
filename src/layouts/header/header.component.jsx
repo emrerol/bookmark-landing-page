@@ -1,5 +1,7 @@
+import { useEffect, useState } from "react";
 import SmallButton from "../../components/small-button/small-button.component";
 import Logo from "../../images/logo-bookmark.svg";
+import Hamburger from "../../images/icon-hamburger.svg";
 import "./header.style.scss";
 
 const Header = () => {
@@ -9,6 +11,25 @@ const Header = () => {
     mediumBlueButton: "md-blue-btn",
     mediumGreyButton: "md-grey-btn",
   };
+
+  //#region Hamburger menü için kullanılabilir?
+
+  // const [winSize, setWinSize] = useState({
+  //   winWidth: window.innerWidth,
+  // });
+
+  // useEffect(() => {
+  //   window.addEventListener(
+  //     "resize",
+  //     setWinSize({
+  //       winWidth: window.innerWidth,
+  //     })
+  //   );
+  // }, []);
+  // console.log(winSize);
+
+  //#endregion
+
   return (
     <header>
       <nav className="nav">
