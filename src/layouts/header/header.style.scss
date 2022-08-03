@@ -3,7 +3,6 @@
       background-color:#fff;
       display: flex;
       justify-content: space-between;
-      flex-wrap: wrap;
       padding: 2.5rem 14rem;
 
       .header-logo {
@@ -30,4 +29,30 @@
                   text-decoration:none;
             }
       }
+
+
+      .hamburger-wrapper {
+            
+            display: none;
+            align-items: center;
+            cursor: pointer;
+      }
+
+
+      
+}
+
+
+
+@media  (max-width: 1000px) {
+     .nav {
+           .hamburger-wrapper {
+                 display: flex;
+           }
+      
+           .header-routes {
+                display: none;
+           }
+     }
+     
 }

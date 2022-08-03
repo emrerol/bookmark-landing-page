@@ -2,8 +2,12 @@
   background-color: #fff;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   padding: 2.5rem 14rem;
+}
+.nav .header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav .header-routes {
   display: flex;
@@ -20,4 +24,18 @@
   letter-spacing: 0.2rem;
   border-radius: 0.3rem;
   text-decoration: none;
+}
+.nav .hamburger-wrapper {
+  display: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .nav .hamburger-wrapper {
+    display: flex;
+  }
+  .nav .header-routes {
+    display: none;
+  }
 }/*# sourceMappingURL=header.style.css.map */

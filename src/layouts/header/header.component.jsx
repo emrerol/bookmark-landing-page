@@ -12,23 +12,11 @@ const Header = () => {
     mediumGreyButton: "md-grey-btn",
   };
 
-  // #region Hamburger menü için kullanılabilir?
+  const [isToggle, setIsToggle] = useState(false);
 
-  // const [winSize, setWinSize] = useState({
-  //   winWidth: 1500,
-  // });
-
-  // useEffect(() => {
-  //   window.addEventListener(
-  //     "resize",
-  //     setWinSize({
-  //       winWidth: window.innerWidth,
-  //     })
-  //   );
-  // }, []);
-  // console.log(winSize);
-
-  // #endregion
+  const toggleHandler = () => {
+    setIsToggle(!isToggle);
+  };
 
   return (
     <header>
@@ -38,7 +26,6 @@ const Header = () => {
             <img src={Logo} alt="Logo" />
           </a>
         </div>
-
         <div className="header-routes">
           <a href="#" className="header-routes__element">
             Features
@@ -51,6 +38,26 @@ const Header = () => {
           </a>
           <SmallButton text={"Login"} colorName={BUTTON_TYPES.smallRedButton} />
         </div>
+        <div className="hamburger-wrapper" onClick={toggleHandler}>
+          <img src={Hamburger} />
+        </div>
+        {isToggle && (
+          <div className="list-routes">
+            <a href="#" className="list-routes__element">
+              Features
+            </a>
+            <a href="#" className="list-routes__element">
+              Pricing
+            </a>
+            <a href="#" className="list-routes__element">
+              Contact
+            </a>
+            <SmallButton
+              text={"Login"}
+              colorName={BUTTON_TYPES.smallRedButton}
+            />
+          </div>
+        )}
       </nav>
     </header>
   );
