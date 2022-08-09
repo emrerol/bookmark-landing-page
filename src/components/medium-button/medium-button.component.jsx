@@ -1,7 +1,7 @@
 import "./medium-button.style.scss";
 
 const MediumButton = ({ text, colorName }) => {
-  return <button className={`md-btn ${colorName}`}>{text}</button>;
+  return <a className={`md-btn ${colorName}`}>{text}</a>;
 };
 
 export default MediumButton;

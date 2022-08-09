@@ -1,18 +1,16 @@
-import { useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import SmallButton from "../../components/small-button/small-button.component";
 import Logo from "../../images/logo-bookmark.svg";
 import Hamburger from "../../images/icon-hamburger.svg";
 import "./header.style.scss";
+import HamburgerMenu from "../../components/hamburger-menu/hamburger-menu.component";
+import { ButtonContext } from "../../contexts/button.context";
+import { ToggleContext } from "../../contexts/toggle.context";
 
 const Header = () => {
-  const BUTTON_TYPES = {
-    smallRedButton: "sml-red-btn",
-    smallBlueButton: "sml-blue-btn",
-    mediumBlueButton: "md-blue-btn",
-    mediumGreyButton: "md-grey-btn",
-  };
-
-  const [isToggle, setIsToggle] = useState(false);
+  const { buttonType } = useContext(ButtonContext);
+  const { smallRedButton } = buttonType;
+  const { isToggle, setIsToggle } = useContext(ToggleContext);
 
   const toggleHandler = () => {
     setIsToggle(!isToggle);
@@ -36,28 +34,12 @@ const Header = () => {
           <a href="#" className="header-routes__element">
             Contact
           </a>
-          <SmallButton text={"Login"} colorName={BUTTON_TYPES.smallRedButton} />
+          <SmallButton text={"Login"} colorName={smallRedButton} />
         </div>
         <div className="hamburger-wrapper" onClick={toggleHandler}>
           <img src={Hamburger} />
+          {isToggle && <HamburgerMenu />}
         </div>
-        {isToggle && (
-          <div className="list-routes">
-            <a href="#" className="list-routes__element">
-              Features
-            </a>
-            <a href="#" className="list-routes__element">
-              Pricing
-            </a>
-            <a href="#" className="list-routes__element">
-              Contact
-            </a>
-            <SmallButton
-              text={"Login"}
-              colorName={BUTTON_TYPES.smallRedButton}
-            />
-          </div>
-        )}
       </nav>
     </header>
   );

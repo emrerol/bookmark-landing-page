@@ -25,6 +25,9 @@
   border-radius: 0.3rem;
   text-decoration: none;
 }
+.nav .header-routes__element:hover {
+  color: hsl(0deg, 94%, 66%);
+}
 .nav .hamburger-wrapper {
   display: none;
   align-items: center;

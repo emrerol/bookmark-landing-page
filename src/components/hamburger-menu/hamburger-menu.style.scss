@@ -1,0 +1,9 @@
+@import '../../style-variables/style-variables.styles.scss';
+
+.hamburger-menu {
+      position: absolute;
+      z-index: 5;
+      background-color: red;
+      width: 100vw;
+      height: 100vh;
+}

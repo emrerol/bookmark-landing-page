@@ -18,4 +18,5 @@
 
 .sml-blue-btn {
   background-color: hsl(231deg, 69%, 60%);
+  box-shadow: 0 0.4rem 0.6rem -0.2rem hsl(229deg, 8%, 60%);
 }/*# sourceMappingURL=small-button.styles.css.map */

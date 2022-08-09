@@ -14,8 +14,10 @@
 
 .md-blue-btn {
   background-color: hsl(231deg, 69%, 60%);
+  color: black;
 }
 
 .md-grey-btn {
   background-color: #babcc4;
+  color: red;
 }/*# sourceMappingURL=medium-button.style.css.map */

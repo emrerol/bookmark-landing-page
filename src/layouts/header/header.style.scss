@@ -27,6 +27,10 @@
                   letter-spacing: .2rem;
                   border-radius: .3rem;
                   text-decoration:none;
+
+                  &:hover {
+                        color: $soft-red;
+                  }
             }
       }
 
