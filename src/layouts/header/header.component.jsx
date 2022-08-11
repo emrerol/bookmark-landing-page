@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import SmallButton from "../../components/small-button/small-button.component";
 import Logo from "../../images/logo-bookmark.svg";
 import Hamburger from "../../images/icon-hamburger.svg";
