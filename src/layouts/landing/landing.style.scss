@@ -1,18 +1,56 @@
-@mixin centering($color) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $color;
-}
+// @mixin centering($color) {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: $color;
+// }
+
+@import '../../style-variables/style-variables.styles.scss';
 
 .landingdiv {
-    height: 20vh;
-    background-color: aqua;
-    &__ikinci{
-        
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4%;
+    padding-left: 12%;
+    position: relative;
+    height: 88vh;
+    padding-top: 13vh;
+
+    .bluesurface{
+        position: absolute;
+        height: 42vh;
+        width: 34vw;
+        right: 0;
+        bottom: 16%;
+        background-color: $soft-blue;
+        border-bottom-left-radius: 16rem;
+        z-index: 0;        
     }
-    &:hover{background-color: bisque;}
-    @include centering(pink);
+    .landingleftside{
+        font-family: $font-family;
+        display: flex;
+        flex-direction: column;
+        padding-top: 7vh;
+        max-width: 34vw;
+        .landingbuttonsdiv{
+            display: flex;
+            flex-direction: row;
+        }
+        .h1{
+            font-size: 5rem;
+            font-weight: $medium-font;
+            color: $very-dark-blue;
+            margin-bottom: 0;
+        }
+        .parag{
+            color: $grayish-blue;
+            font-size: 2.1rem;
+        }
+    }
+    .landingrightside{
+        z-index: 2;
+    }
+    
     
 }
 
