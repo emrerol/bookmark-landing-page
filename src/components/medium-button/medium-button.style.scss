@@ -3,24 +3,24 @@
 .md-btn {
       color: lighten($grayish-blue, 60);
       text-align: center;
-      padding: 1rem 3.5rem;
-      text-transform: uppercase;
+      padding: 1.6rem 2.8rem;
       cursor: pointer;
       border: none;
       font-family: $font-family;
       font-size: 1.2rem;
-      letter-spacing: 3px;
-      border-radius: 3px;
+      font-weight: $medium-font;
+      // letter-spacing: .3rem;
+      border-radius: .5rem;
       text-decoration:none;
 
 }
 
 .md-blue-btn {
       background-color: $soft-blue;
-      color: black;
+      color: #ffffff;
 }
 
 .md-grey-btn {
-      background-color: lighten($grayish-blue, 15);
-      color: red;
+      background-color: lighten($grayish-blue, 35);
+      color: lighten($very-dark-blue, 10)
 }
