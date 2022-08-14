@@ -1,0 +1,11 @@
+.landingdiv {
+  height: 20vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+.landingdiv:hover {
+  background-color: bisque;
+}/*# sourceMappingURL=landing.style.css.map */

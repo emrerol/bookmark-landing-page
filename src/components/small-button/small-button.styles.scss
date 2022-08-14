@@ -8,9 +8,13 @@
       border: none;
       font-family: $font-family;
       font-size: 1.2rem;
-      letter-spacing: 3px;
-      border-radius: 3px;
+      letter-spacing: .3rem;
+      border-radius: .3rem;
       text-decoration:none;
+      -webkit-border-radius: .3rem;
+      -moz-border-radius: .3rem;
+      -ms-border-radius: .3rem;
+      -o-border-radius: .3rem;
 }
 
 .sml-red-btn {

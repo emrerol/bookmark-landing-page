@@ -6,9 +6,13 @@
   border: none;
   font-family: "Rubik", sans-serif;
   font-size: 1.2rem;
-  letter-spacing: 3px;
-  border-radius: 3px;
+  letter-spacing: 0.3rem;
+  border-radius: 0.3rem;
   text-decoration: none;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
 }
 
 .sml-red-btn {

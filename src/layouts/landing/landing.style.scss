@@ -1,0 +1,20 @@
+@mixin centering($color) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color;
+}
+
+.landingdiv {
+    height: 20vh;
+    background-color: aqua;
+    &__ikinci{
+        
+    }
+    &:hover{background-color: bisque;}
+    @include centering(pink);
+    
+}
+
+
+
