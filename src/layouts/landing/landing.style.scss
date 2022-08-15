@@ -1,16 +1,15 @@
-
-
 @import '../../style-variables/style-variables.styles.scss';
 
 .landing {
     display: flex;
     justify-content: space-between;
-    // gap: 10rem;
     flex-wrap: wrap-reverse;
-    padding-right: 10rem;
+    padding-right: 0;
     padding-left: 14rem;
     position: relative;
     padding-top: 13rem;
+
+    
 
     &__left{
         font-family: $font-family;
@@ -35,9 +34,10 @@
         }
     }
 
-
     .landingrightside{
-
+        
+        right:0;
+        position: relative;
         &::before {
             content: '';
             position: absolute;
@@ -48,25 +48,27 @@
             bottom: 0;
             z-index: -1;
             border-bottom-left-radius: 25rem;
-        }
-
-        .hero {
-            width: 100%;
-            height: auto;
-        }
-        
+        }        
     }
-
-    
     
 }
 
 
-// @media (max-width:1000px) {
-//     .landingdiv {
-//         display: flex;
-//         flex-direction: column;
-//         gap: 2rem;
-//         flex-wrap: wrap-reverse;
-//     }
-// }
+@media screen and (max-width:1440px) {
+    .landing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+        flex-direction: column-reverse;
+
+        &__left {
+            max-width: 70vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+    }
+}

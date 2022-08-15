@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap-reverse;
-  padding-right: 10rem;
+  padding-right: 0;
   padding-left: 14rem;
   position: relative;
   padding-top: 13rem;
@@ -29,6 +29,10 @@
   color: hsl(229deg, 8%, 60%);
   font-size: 2.1rem;
 }
+.landing .landingrightside {
+  right: 0;
+  position: relative;
+}
 .landing .landingrightside::before {
   content: "";
   position: absolute;
@@ -40,7 +44,20 @@
   z-index: -1;
   border-bottom-left-radius: 25rem;
 }
-.landing .landingrightside .hero {
-  width: 100%;
-  height: auto;
+
+@media screen and (max-width: 1440px) {
+  .landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    flex-direction: column-reverse;
+  }
+  .landing__left {
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }/*# sourceMappingURL=landing.style.css.map */
