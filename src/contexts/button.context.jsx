@@ -6,6 +6,7 @@ export const ButtonContext = createContext({
     smallBlueButton: "sml-blue-btn",
     mediumBlueButton: "md-blue-btn",
     mediumGreyButton: "md-grey-btn",
+    largeBlueButton: "lg-blue-btn",
   },
   setButtonType: () => null,
 });
@@ -16,6 +17,7 @@ export const ButtonContextProvider = ({ children }) => {
     smallBlueButton: "sml-blue-btn",
     mediumBlueButton: "md-blue-btn",
     mediumGreyButton: "md-grey-btn",
+    largeBlueButton: "lg-blue-btn",
   });
 
   const value = { buttonType, setButtonType };

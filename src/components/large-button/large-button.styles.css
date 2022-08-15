@@ -1,0 +1,27 @@
+.lg-btn {
+  color: white;
+  text-align: center;
+  padding: 1.4rem 6rem;
+  cursor: pointer;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  box-shadow: 0 0.4rem 0.6rem -0.2rem hsl(229deg, 8%, 60%);
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.lg-blue-btn {
+  background-color: hsl(231deg, 69%, 60%);
+}
+.lg-blue-btn:hover {
+  background-color: #ffffff;
+  padding: 1.2rem 5.8rem;
+  border: 0.2rem solid hsl(231deg, 69%, 60%);
+  color: hsl(231deg, 69%, 60%);
+}/*# sourceMappingURL=large-button.styles.css.map */

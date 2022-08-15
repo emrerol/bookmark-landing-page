@@ -34,7 +34,7 @@ const Header = () => {
           <a href="#" className="header-routes__element">
             Contact
           </a>
-          <SmallButton text={"Login"} colorName={smallRedButton} />
+          <SmallButton href={"#"} text={"Login"} colorName={smallRedButton} />
         </div>
         <div className="hamburger-wrapper" onClick={toggleHandler}>
           <img src={Hamburger} />

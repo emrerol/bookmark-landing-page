@@ -3,7 +3,6 @@ import { useContext } from "react";
 import { ButtonContext } from "../../contexts/button.context";
 import Hero from "../../images/illustration-hero.svg";
 import MediumButton from "../../components/medium-button/medium-button.component";
-
 export default function Landing() {
   const { buttonType } = useContext(ButtonContext);
 
@@ -19,10 +18,12 @@ export default function Landing() {
         </p>
         <div className="landingbuttonsdiv">
           <MediumButton
+            href={"#"}
             text={"Get it on Chrome"}
             colorName={mediumBlueButton}
           />
           <MediumButton
+            href={"#"}
             text={"Get it on Firefox"}
             colorName={mediumGreyButton}
           />

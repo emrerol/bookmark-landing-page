@@ -1,0 +1,31 @@
+@import '../../style-variables/style-variables.styles.scss';
+
+.lg-btn {
+      color: lighten($grayish-blue, 60);
+      text-align: center;
+      padding: 1.4rem 6rem;
+      cursor: pointer;
+      border: none;
+      font-family: $font-family;
+      font-size: 1.2rem;
+      font-weight: $medium-font;
+      border-radius: .5rem;
+      text-decoration:none;
+      box-shadow: 0 .4rem .6rem -.2rem $grayish-blue;
+      -webkit-border-radius: .3rem;
+      -moz-border-radius: .3rem;
+      -ms-border-radius: .3rem;
+      -o-border-radius: .3rem;
+}
+
+
+.lg-blue-btn {
+      background-color: $soft-blue;
+
+      &:hover {
+            background-color: #ffffff;
+            padding: 1.2rem 5.8rem;
+            border: 0.2rem solid $soft-blue;
+            color: $soft-blue;
+      }
+}
