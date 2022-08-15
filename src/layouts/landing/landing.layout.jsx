@@ -10,9 +10,8 @@ export default function Landing() {
   const { mediumBlueButton, mediumGreyButton } = buttonType;
 
   return (
-    <div className="landingdiv">
-      <div className="bluesurface"></div>
-      <div className="landingleftside">
+    <sect className="landing">
+      <div className="landing__left">
         <h1 className="h1">A Simple Bookmark Manager</h1>
         <p className="parag">
           A clean and simple interface to organize your favourite websites. Open
@@ -33,6 +32,6 @@ export default function Landing() {
       <div className="landingrightside">
         <img src={Hero} alt="illustration_tablet" className="hero" />
       </div>
-    </div>
+    </sect>
   );
 }

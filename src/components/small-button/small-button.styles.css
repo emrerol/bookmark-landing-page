@@ -18,24 +18,22 @@
 .sml-red-btn {
   background-color: hsl(0deg, 94%, 66%);
   box-shadow: 0 0.4rem 0.6rem -0.2rem hsl(229deg, 8%, 60%);
-  font-family: "Rubik", sans-serif;
 }
 .sml-red-btn:hover {
   background-color: #ffffff;
   border: 0.2rem solid hsl(0deg, 94%, 66%);
   color: hsl(0deg, 94%, 66%);
-  padding: 0.9rem 2.3rem;
+  padding: 0.8rem 2.3rem;
 }
 
 .sml-blue-btn {
   background-color: hsl(231deg, 69%, 60%);
   box-shadow: 0 0.4rem 0.6rem -0.2rem hsl(229deg, 8%, 60%);
-  font-family: "Rubik", sans-serif;
   font-size: 1.2rem;
 }
 .sml-blue-btn:hover {
   background-color: #ffffff;
   border: 0.2rem solid hsl(231deg, 69%, 60%);
   color: hsl(231deg, 69%, 60%);
-  padding: 0.9rem 2.3rem;
+  padding: 0.8rem 2.3rem;
 }/*# sourceMappingURL=small-button.styles.css.map */

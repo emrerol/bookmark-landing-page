@@ -1,23 +1,39 @@
 .md-btn {
   color: white;
   text-align: center;
-  padding: 1rem 3.5rem;
-  text-transform: uppercase;
+  padding: 1.6rem 2.8rem;
   cursor: pointer;
   border: none;
   font-family: "Rubik", sans-serif;
   font-size: 1.2rem;
-  letter-spacing: 3px;
-  border-radius: 3px;
+  font-weight: 500;
+  border-radius: 0.5rem;
   text-decoration: none;
+  box-shadow: 0 0.4rem 0.6rem -0.2rem hsl(229deg, 8%, 60%);
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
 }
 
 .md-blue-btn {
   background-color: hsl(231deg, 69%, 60%);
-  color: black;
+  color: #ffffff;
+}
+.md-blue-btn:hover {
+  background-color: #ffffff;
+  border: 0.2rem solid hsl(231deg, 69%, 60%);
+  color: hsl(231deg, 69%, 60%);
+  padding: 1.4rem 2.6rem;
 }
 
 .md-grey-btn {
-  background-color: #babcc4;
-  color: red;
+  background-color: #f1f2f3;
+  color: #374068;
+}
+.md-grey-btn:hover {
+  background-color: #ffffff;
+  border: 0.2rem solid #6c79b2;
+  color: #374068;
+  padding: 1.4rem 2.6rem;
 }/*# sourceMappingURL=medium-button.style.css.map */

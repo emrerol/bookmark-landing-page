@@ -20,26 +20,24 @@
 .sml-red-btn {
       background-color: $soft-red;
       box-shadow: 0 .4rem .6rem -.2rem $grayish-blue;
-      font-family: $font-family;
 
       &:hover {
             background-color: #ffffff;
             border: 0.2rem solid $soft-red;
             color: $soft-red;
-            padding: 0.9rem 2.3rem;;
+            padding: 0.8rem 2.3rem;;
       }
 }
 
 .sml-blue-btn {
       background-color: $soft-blue;
       box-shadow: 0 .4rem .6rem -.2rem $grayish-blue;
-      font-family: $font-family;
       font-size:1.2rem;
 
       &:hover {
             background-color: #ffffff;
             border: 0.2rem solid $soft-blue;
             color: $soft-blue;
-            padding: 0.9rem 2.3rem;;
+            padding: 0.8rem 2.3rem;;
       }
 }

@@ -12,15 +12,36 @@
       // letter-spacing: .3rem;
       border-radius: .5rem;
       text-decoration:none;
+      box-shadow: 0 .4rem .6rem -.2rem $grayish-blue;
+      -webkit-border-radius: .3rem;
+      -moz-border-radius: .3rem;
+      -ms-border-radius: .3rem;
+      -o-border-radius: .3rem;
 
 }
 
 .md-blue-btn {
       background-color: $soft-blue;
       color: #ffffff;
+      
+
+      &:hover {
+            background-color: #ffffff;
+            border: 0.2rem solid $soft-blue;
+            color: $soft-blue;
+            padding: 1.4rem 2.6rem;;
+      }
+      
 }
 
 .md-grey-btn {
       background-color: lighten($grayish-blue, 35);
-      color: lighten($very-dark-blue, 10)
+      color: lighten($very-dark-blue, 10);
+      
+      &:hover {
+            background-color: #ffffff;
+            border: 0.2rem solid lighten($very-dark-blue,35);
+            color: lighten($very-dark-blue, 10);;
+            padding: 1.4rem 2.6rem;;
+      }
 }
