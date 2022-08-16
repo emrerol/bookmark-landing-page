@@ -1,0 +1,18 @@
+.featuresdiv {
+  display: flex;
+  flex-direction: column;
+  font-family: "Rubik", sans-serif;
+  margin-top: 5rem;
+  align-items: center;
+}
+.featuresdiv h1 {
+  font-size: 3.4rem;
+  color: hsl(229deg, 31%, 21%);
+  font-weight: 500;
+}
+.featuresdiv p {
+  text-align: center;
+  color: hsl(229deg, 8%, 60%);
+  font-size: 2rem;
+  max-width: 60rem;
+}/*# sourceMappingURL=features.style.css.map */

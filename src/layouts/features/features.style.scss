@@ -1,0 +1,21 @@
+@import '../../style-variables/style-variables.styles.scss';
+
+.featuresdiv {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-family;
+    margin-top: 5rem;
+    align-items: center;
+    h1 {
+        
+        font-size: 3.4rem;
+        color: $very-dark-blue;
+        font-weight: $medium-font;
+    }
+    p{
+        text-align: center;
+        color: $grayish-blue;
+        font-size: 2rem;
+        max-width: 60rem;
+    }
+}
