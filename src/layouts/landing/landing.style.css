@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 7vh;
-  max-width: 34vw;
+  max-width: 50rem;
 }
 .landing__left .landingbuttonsdiv {
   display: flex;
@@ -20,12 +20,14 @@
   gap: 1.5rem;
 }
 .landing__left .h1 {
+  width: inherit;
   font-size: 5rem;
   font-weight: 500;
   color: hsl(229deg, 31%, 21%);
   margin-bottom: 0;
 }
 .landing__left .parag {
+  width: inherit;
   color: hsl(229deg, 8%, 60%);
   font-size: 2.1rem;
 }
@@ -53,11 +55,15 @@
     gap: 10rem;
     flex-direction: column-reverse;
   }
+  .landing .h1 {
+    max-width: 30rem;
+  }
   .landing__left {
-    max-width: 70vw;
+    max-width: 70rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-right: 12rem;
   }
 }/*# sourceMappingURL=landing.style.css.map */
