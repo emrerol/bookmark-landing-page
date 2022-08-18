@@ -9,7 +9,7 @@ export default function Landing() {
   const { mediumBlueButton, mediumGreyButton } = buttonType;
 
   return (
-    <sect className="landing">
+    <section className="landing">
       <div className="landing__left">
         <h1 className="h1">A Simple Bookmark Manager</h1>
         <p className="parag">
@@ -33,6 +33,6 @@ export default function Landing() {
       <div className="landingrightside">
         <img src={Hero} alt="illustration_tablet" className="hero" />
       </div>
-    </sect>
+    </section>
   );
 }
