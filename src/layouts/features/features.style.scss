@@ -5,6 +5,7 @@
     flex-direction: column;
     font-family: $font-family;
     margin-top: 5rem;
+    margin-bottom: 6rem;
     align-items: center;
     h1 {
         
@@ -18,4 +19,86 @@
         font-size: 2rem;
         max-width: 60rem;
     }
+    .buttonsdiv{
+        border-bottom: 1px solid $grayish-blue;
+        margin-bottom: 20px;
+        padding: 0;
+        
+        .button{
+            background-color: transparent;
+            cursor: pointer;
+            width: 26rem;
+            height: 6rem;
+            border: none;
+            font-family: $font-family;
+            color: $very-dark-blue;
+            font-weight: $regular-font;
+            font-size: medium;
+        }
+        .simple{
+            border-bottom: 4px solid $soft-red;
+            font-weight: $medium-font;
+        }
+    }
+    
+    .tabdiv{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        padding-top: 6rem;
+        padding-left: 10rem;
+        padding-bottom: 8rem;
+        width: 100%;
+        &::before {
+            content: '';
+            position: absolute;
+            background-color: $soft-blue;
+            width: 50rem;
+            height: 35rem;
+            left: 0;
+            top: 12rem;
+            z-index: -1;
+            border-bottom-right-radius: 25rem;
+            border-top-right-radius: 55rem;
+        }  
+    }
+    .featuresrightside{
+        margin-right: 130px;
+        h1,p{
+            text-align: left;
+            margin-bottom: 4rem;
+        }
+        h1{
+            font-size: xx-large;
+            margin-top: 4rem;
+        }
+        p{
+            font-size: large;
+            max-width: 30vw;
+        }
+    }
+}
+
+@media screen and (max-width:1440px){
+    .buttonsdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .tabdiv{
+        flex-direction: column;
+        
+        .tabsillustration{
+            width: 80%;
+        }
+        .featuresrightside{
+            display: flex;
+            flex-direction: column;
+            h1,p{
+                text-align: center;
+                max-width: none;
+            }
+            padding-top: 10rem;
+        }
+    }
+
 }

@@ -1,12 +1,12 @@
 .sml-btn {
   color: white;
   padding: 1rem 2.5rem;
-  text-transform: uppercase;
+  text-transform: none;
   cursor: pointer;
   border: none;
   font-family: "Rubik", sans-serif;
   font-size: 1.2rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
   border-radius: 0.3rem;
   text-decoration: none;
   -webkit-border-radius: 0.3rem;

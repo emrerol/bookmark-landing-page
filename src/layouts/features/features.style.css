@@ -3,6 +3,7 @@
   flex-direction: column;
   font-family: "Rubik", sans-serif;
   margin-top: 5rem;
+  margin-bottom: 6rem;
   align-items: center;
 }
 .featuresdiv h1 {
@@ -15,4 +16,82 @@
   color: hsl(229deg, 8%, 60%);
   font-size: 2rem;
   max-width: 60rem;
+}
+.featuresdiv .buttonsdiv {
+  border-bottom: 1px solid hsl(229deg, 8%, 60%);
+  margin-bottom: 20px;
+  padding: 0;
+}
+.featuresdiv .buttonsdiv .button {
+  background-color: transparent;
+  cursor: pointer;
+  width: 26rem;
+  height: 6rem;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  color: hsl(229deg, 31%, 21%);
+  font-weight: 400;
+  font-size: medium;
+}
+.featuresdiv .buttonsdiv .simple {
+  border-bottom: 4px solid hsl(0deg, 94%, 66%);
+  font-weight: 500;
+}
+.featuresdiv .tabdiv {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding-top: 6rem;
+  padding-left: 10rem;
+  padding-bottom: 8rem;
+  width: 100%;
+}
+.featuresdiv .tabdiv::before {
+  content: "";
+  position: absolute;
+  background-color: hsl(231deg, 69%, 60%);
+  width: 50rem;
+  height: 35rem;
+  left: 0;
+  top: 12rem;
+  z-index: -1;
+  border-bottom-right-radius: 25rem;
+  border-top-right-radius: 55rem;
+}
+.featuresdiv .featuresrightside {
+  margin-right: 130px;
+}
+.featuresdiv .featuresrightside h1, .featuresdiv .featuresrightside p {
+  text-align: left;
+  margin-bottom: 4rem;
+}
+.featuresdiv .featuresrightside h1 {
+  font-size: xx-large;
+  margin-top: 4rem;
+}
+.featuresdiv .featuresrightside p {
+  font-size: large;
+  max-width: 30vw;
+}
+
+@media screen and (max-width: 1440px) {
+  .buttonsdiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabdiv {
+    flex-direction: column;
+  }
+  .tabdiv .tabsillustration {
+    width: 80%;
+  }
+  .tabdiv .featuresrightside {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+  }
+  .tabdiv .featuresrightside h1, .tabdiv .featuresrightside p {
+    text-align: center;
+    max-width: none;
+  }
 }/*# sourceMappingURL=features.style.css.map */
