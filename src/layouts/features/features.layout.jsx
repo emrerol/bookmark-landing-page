@@ -7,7 +7,6 @@ import { useContext } from "react";
 import SmallButton from "../../components/small-button/small-button.component";
 import { ButtonContext } from "../../contexts/button.context";
 import { useState } from "react";
-import { useEffect } from "react";
 
 export default function Features() {
   const { buttonType } = useContext(ButtonContext);
