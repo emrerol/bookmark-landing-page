@@ -1,0 +1,94 @@
+@import '../../style-variables/style-variables.styles.scss';
+
+
+.faq {
+      margin: auto;
+      font-family: $font-family;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+
+      &__text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            font-size: calc(max(2rem, 40%));
+            margin-bottom: 5rem;
+
+            p {
+                  text-align: center;
+                  max-width: 80%;
+                  font-size: 1.5rem;
+                  font-weight: $regular-font;
+                  color: lighten($very-dark-blue, 20);
+                  opacity: .8;
+            }
+      }
+
+      .accordion {
+            width: calc(max(40rem, 40%));
+
+            hr {
+                  color: $grayish-blue;
+                  opacity: .6;
+            }
+
+            .item {
+                  margin-bottom: .5rem;
+                                  // padding: 1rem 2rem;
+
+                  .q-title {
+                        color: $very-dark-blue;
+                        font-size: 1rem;
+                        // font-weight: $regular-font;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        cursor: pointer;
+
+                        a {
+                              text-decoration: none;
+                              color: $soft-blue;
+                              cursor: pointer;
+
+                              &:hover,
+                              &:active {
+                                    color: $soft-red;
+                              }
+                        }
+                  }
+
+                  .q-content {
+                        color: lighten($very-dark-blue,10);
+                        font-size: #{"max(1.2rem, 15%)"};
+                        font-weight: $regular-font;
+                        line-height: 3rem;
+                        max-height: 0;
+                        overflow: hidden;
+
+                        &-open{
+                              color: lighten($very-dark-blue,10);
+                              font-size: #{"max(1.2rem, 15%)"};
+                              font-weight: $regular-font;
+                              line-height: 3rem;
+                              height: max-content;
+
+
+
+                        }
+                  }
+
+                  &:active {
+                        .q-title {
+                              color: $soft-red;
+                        }
+                  }
+            }
+      }
+}

@@ -1,0 +1,73 @@
+.faq {
+  margin: auto;
+  font-family: "Rubik", sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.faq__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: max(2rem, 40%);
+  margin-bottom: 5rem;
+}
+.faq__text p {
+  text-align: center;
+  max-width: 80%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #485489;
+  opacity: 0.8;
+}
+.faq .accordion {
+  width: max(40rem, 40%);
+}
+.faq .accordion hr {
+  color: hsl(229deg, 8%, 60%);
+  opacity: 0.6;
+}
+.faq .accordion .item {
+  margin-bottom: 0.5rem;
+}
+.faq .accordion .item .q-title {
+  color: hsl(229deg, 31%, 21%);
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.faq .accordion .item .q-title a {
+  text-decoration: none;
+  color: hsl(231deg, 69%, 60%);
+  cursor: pointer;
+}
+.faq .accordion .item .q-title a:hover, .faq .accordion .item .q-title a:active {
+  color: hsl(0deg, 94%, 66%);
+}
+.faq .accordion .item .q-content {
+  color: #374068;
+  font-size: max(1.2rem, 15%);
+  font-weight: 400;
+  line-height: 3rem;
+  max-height: 0;
+  overflow: hidden;
+}
+.faq .accordion .item .q-content-open {
+  color: #374068;
+  font-size: max(1.2rem, 15%);
+  font-weight: 400;
+  line-height: 3rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.faq .accordion .item:active .q-title {
+  color: hsl(0deg, 94%, 66%);
+}/*# sourceMappingURL=faq.style.css.map */

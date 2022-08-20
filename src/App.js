@@ -3,6 +3,7 @@ import Landing from "./layouts/landing/landing.layout";
 import "./App.css";
 import Features from "./layouts/features/features.layout";
 import Extension from "./layouts/extension/extension.layout";
+import FAQ from "./layouts/faq/faq.layout";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Landing />
       <Features />
       <Extension />
+      <FAQ />
     </div>
   );
 }
