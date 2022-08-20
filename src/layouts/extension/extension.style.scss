@@ -1,0 +1,34 @@
+@import '../../style-variables/style-variables.styles.scss';
+.extension{
+    padding-left: 5rem;
+    .texts{
+        font-family: $font-family;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            font-size: xx-large;
+            color: $very-dark-blue;
+            text-align: center;
+        }
+        p{
+            font-size: large;
+            color: $grayish-blue;
+            max-width: 40vw;
+            text-align: center;
+        }
+    }
+    .cardsdiv{
+        display: flex;
+        padding-top: 10rem;
+        flex-direction: row;
+        column-gap: 4rem;
+        justify-content: center;
+        .chrome{
+            margin-top: -5rem;
+        }
+        .opera{
+            margin-top: 5rem;
+        }
+    }
+}

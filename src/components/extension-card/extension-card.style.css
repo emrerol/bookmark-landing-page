@@ -1,0 +1,35 @@
+.extensioncard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+  height: 38rem;
+  padding-top: 2rem;
+  box-shadow: 0px 47px 114px -31px rgb(188, 199, 222);
+  border-radius: 1.4rem;
+  -webkit-border-radius: 1.4rem;
+  -moz-border-radius: 1.4rem;
+  -ms-border-radius: 1.4rem;
+  -o-border-radius: 1.4rem;
+  font-family: "Rubik", sans-serif;
+}
+.extensioncard .icon {
+  width: 42%;
+  padding-bottom: 2rem;
+}
+.extensioncard h2 {
+  font-size: large;
+  color: hsl(229deg, 31%, 21%);
+  word-spacing: 2px;
+  margin-bottom: 0;
+}
+.extensioncard p {
+  font-size: 1.3rem;
+  color: hsl(229deg, 8%, 60%);
+}
+.extensioncard hr {
+  border-top: 3px dotted hsl(229deg, 8%, 60%);
+  width: 100%;
+  margin-bottom: 2.8rem;
+  margin-top: 2.8rem;
+}/*# sourceMappingURL=extension-card.style.css.map */

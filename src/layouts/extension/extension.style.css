@@ -1,0 +1,34 @@
+.extension {
+  padding-left: 5rem;
+}
+.extension .texts {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.extension .texts h1 {
+  font-size: xx-large;
+  color: hsl(229deg, 31%, 21%);
+  text-align: center;
+}
+.extension .texts p {
+  font-size: large;
+  color: hsl(229deg, 8%, 60%);
+  max-width: 40vw;
+  text-align: center;
+}
+.extension .cardsdiv {
+  display: flex;
+  padding-top: 10rem;
+  flex-direction: row;
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+  justify-content: center;
+}
+.extension .cardsdiv .chrome {
+  margin-top: -5rem;
+}
+.extension .cardsdiv .opera {
+  margin-top: 5rem;
+}/*# sourceMappingURL=extension.style.css.map */
