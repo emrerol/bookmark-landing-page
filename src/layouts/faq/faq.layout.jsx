@@ -2,6 +2,9 @@ import "./faq.style.scss";
 import Arrow from "../../images/icon-arrow.svg";
 import RedArrow from "../../images/icon-arrow-red.svg";
 import { useState } from "react";
+import { useContext } from "react";
+import SmallButton from "../../components/small-button/small-button.component";
+import { ButtonContext } from "../../contexts/button.context";
 
 const questions = [
   {
@@ -40,6 +43,8 @@ const FAQ = () => {
 
     setCurrent(index);
   };
+  const { buttonType } = useContext(ButtonContext);
+  const { smallBlueButton } = buttonType;
 
   return (
     <section className="faq">
@@ -57,11 +62,11 @@ const FAQ = () => {
           <div className="item" key={question.id}>
             <div className="q-title" onClick={() => accordion(index)}>
               <h2>{question.question}</h2>
-              <a>
+              <a href="/#">
                 {current === index ? (
-                  <img src={RedArrow}></img>
+                  <img src={RedArrow} alt="arrow"></img>
                 ) : (
-                  <img src={Arrow}></img>
+                  <img src={Arrow} alt="arrow"></img>
                 )}
               </a>
             </div>
@@ -72,6 +77,12 @@ const FAQ = () => {
           </div>
         ))}
       </div>
+      <SmallButton
+                className="btnmoreinfo"
+                href={"#"}
+                text={"More Info"}
+                colorName={smallBlueButton}
+              />
     </section>
   );
 };

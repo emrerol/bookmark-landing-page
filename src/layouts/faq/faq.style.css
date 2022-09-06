@@ -27,6 +27,7 @@
 }
 .faq .accordion {
   width: max(40rem, 40%);
+  margin-bottom: 4rem;
 }
 .faq .accordion hr {
   color: hsl(229deg, 8%, 60%);
