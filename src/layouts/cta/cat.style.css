@@ -1,0 +1,53 @@
+.cat {
+  background-color: hsl(231deg, 69%, 60%);
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+  margin-bottom: 0;
+}
+.cat--texts {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.cat--texts p {
+  font-size: 1rem;
+  margin-top: 3.2rem;
+  word-spacing: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+.cat--texts h3 {
+  font-size: 2.6rem;
+  max-width: 80%;
+  line-height: 5rem;
+  font-weight: 500;
+}
+.cat--form {
+  display: flex;
+  gap: 2rem;
+}
+.cat--form input {
+  width: 30rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+.cat--form input::-moz-placeholder {
+  opacity: 0.5;
+  text-indent: 2rem;
+}
+.cat--form input:-ms-input-placeholder {
+  opacity: 0.5;
+  text-indent: 2rem;
+}
+.cat--form input::placeholder {
+  opacity: 0.5;
+  text-indent: 2rem;
+}/*# sourceMappingURL=cat.style.css.map */

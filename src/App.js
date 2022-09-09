@@ -4,6 +4,8 @@ import "./App.css";
 import Features from "./layouts/features/features.layout";
 import Extension from "./layouts/extension/extension.layout";
 import FAQ from "./layouts/faq/faq.layout";
+import CTA from "./layouts/cta/cta.layout";
+import Footer from "./layouts/footer/footer.layout";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Features />
       <Extension />
       <FAQ />
+      <CTA />
+      <Footer />
     </div>
   );
 }

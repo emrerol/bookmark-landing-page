@@ -1,0 +1,40 @@
+@import '../../style-variables/style-variables.styles.scss';
+
+.footer {
+      margin-top: 0;
+      padding-top: 0;
+      background-color: $very-dark-blue;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-family: $font-family;
+      padding: 3rem 7rem;
+
+      &__routes {
+            // color: #fff;
+            display: flex;
+            gap: 4rem;
+            justify-content: center;
+            align-items: center;
+            
+            a {
+                  text-transform: uppercase;
+                  font-size: 1.1rem;
+                  letter-spacing: .5rem;
+                  text-decoration: none;
+                  color: #fff;
+
+                  &:hover{
+                        color: $soft-red;
+                  }
+            }
+      }
+
+      &__externals {
+            display: flex;
+            gap: 3rem;
+            justify-content: center;
+            align-items: center;
+            
+      }
+}

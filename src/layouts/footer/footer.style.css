@@ -1,0 +1,32 @@
+.footer {
+  margin-top: 0;
+  padding-top: 0;
+  background-color: hsl(229deg, 31%, 21%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Rubik", sans-serif;
+  padding: 3rem 7rem;
+}
+.footer__routes {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.footer__routes a {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 0.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+.footer__routes a:hover {
+  color: hsl(0deg, 94%, 66%);
+}
+.footer__externals {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=footer.style.css.map */

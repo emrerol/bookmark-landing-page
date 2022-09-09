@@ -8,6 +8,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5rem;
 }
 .faq__text {
   display: flex;
