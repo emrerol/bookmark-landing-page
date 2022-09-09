@@ -17,13 +17,13 @@ export default function Features() {
     tab3: false,
   });
 
-  const [width, setWidth] = useState(
-    window.addEventListener("resize", sizeHandler)
-  );
+  const [defaultSize, setDefaultSize] = useState(window.innerWidth);
+  const [width, setWidth] = useState(defaultSize);
 
-  function sizeHandler() {
-    setWidth(window.innerWidth);
-  }
+  window.addEventListener("resize", function () {
+    setDefaultSize(window.innerWidth);
+    setWidth(defaultSize);
+  });
 
   console.log(width);
 

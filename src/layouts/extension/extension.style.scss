@@ -1,7 +1,11 @@
 @import '../../style-variables/style-variables.styles.scss';
 .extension{
+ 
     padding-left: 5rem;
     .texts{
+        @media (max-width:1050px) {
+            margin-top: 6rem;
+        }
         font-family: $font-family;
         display: flex;
         align-items: center;
