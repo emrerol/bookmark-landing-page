@@ -1,10 +1,10 @@
 @import '../../style-variables/style-variables.styles.scss';
 
 .hamburger-menu {
+      position: absolute;
       display: flex;
       justify-content: center;
       align-items: flex-start;
-      position: absolute;
       right: 0;
       top: 0;
       z-index: 5;
@@ -63,11 +63,17 @@
             .logos{
                   display: flex;
                   justify-content: center;
-                  position: relative;
-                  top:0;
+                  position: absolute;
+                  bottom: 12rem;
+                  left: 0;
+                  right: 0;
+                  margin-left: auto;
+                  margin-right: auto;
                   height:7rem;
                   img{
                         height: 100%;
+                        margin-left: 5rem;
+                        margin-right: 5rem;
                   }
             }
       }      
