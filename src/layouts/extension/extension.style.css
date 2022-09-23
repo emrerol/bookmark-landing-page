@@ -30,6 +30,7 @@
   -moz-column-gap: 4rem;
        column-gap: 4rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .extension .cardsdiv .chrome {
   margin-top: -5rem;

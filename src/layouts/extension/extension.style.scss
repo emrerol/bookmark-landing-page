@@ -1,6 +1,6 @@
 @import '../../style-variables/style-variables.styles.scss';
 .extension{
- 
+
     padding-left: 5rem;
     .texts{
         @media (max-width:1050px) {
@@ -28,6 +28,7 @@
         flex-direction: row;
         column-gap: 4rem;
         justify-content: center;
+        flex-wrap: wrap;
         .chrome{
             margin-top: -5rem;
         }
