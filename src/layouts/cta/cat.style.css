@@ -26,7 +26,7 @@
 }
 .cat--texts h3 {
   font-size: 2.6rem;
-  max-width: 80%;
+  max-width: inherit;
   line-height: 5rem;
   font-weight: 500;
 }
